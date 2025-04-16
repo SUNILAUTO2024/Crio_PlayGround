@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.puredrive.Web.runner.TestRunner" time="0.085" tests="12" errors="12" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\sunilsonwane\AutomationTestHub\Automation_Sunil\Crio_PlayGround\target\test-classes;C:\Users\sunilsonwane\AutomationTestHub\Automation_Sunil\Crio_PlayGround\target\classes;C:\Users\sunilsonwane\.m2\repository\io\cucumber\cucumber-java\7.20.1\cucumber-java-7.20.1.jar;C:\Users\sunilsonwane\.m2\repository\io\cucumber\cucumber-core\7.20.1\cucumber-core-7.20.1.jar;C:\Users\sunilsonwane\.m2\repository\io\cucumber\cucumber-gherkin\7.20.1\cucumber-gherkin-7.20.1.jar;C:\Users\sunilsonwane\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.20.1\cucumber-gherkin-messages-7.20.1.jar;C:\Users\sunilsonwane\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\sunilsonwane\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\sunilsonwane\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\sunilsonwane\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\sunilsonwane\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\sunilsonwane\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\sunilsonwane\.m2\repository\io\cucumber\datatable\7.20.1\datatable-7.20.1.jar;C:\Users\sunilsonwane\.m2\repository\io\cucumber\cucumber-plugin\7.20.1\cucumber-plugin-7.20.1.jar;C:\Users\sunilsonwane\.m2\repository\io\cucumber\docstring\7.20.1\docstring-7.20.1.jar;C:\Users\sunilsonwane\.m2\repository\io\cucumber\html-formatter\21.7.0\html-formatter-21.7.0.jar;C:\Users\sunilsonwane\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\sunilsonwane\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\sunilsonwane\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\sunilsonwane\.m2\repository\com\sun\mail\javax.mail\1.6.2\javax.mail-1.6.2.jar;C:\Users\sunilsonwane\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\sunilsonwane\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\sunilsonwane\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\sunilsonwane\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\sunilsonwane\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\sunilsonwane\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\sunilsonwane\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\sunilsonwane\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\sunilsonwane\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\sunilsonwane\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\sunilsonwane\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\sunilsonwane\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\sunilsonwane\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\sunilsonwane\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\sunilsonwane\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\sunilsonwane\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\sunilsonwane\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\sunilsonwane\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\sunilsonwane\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\sunilsonwane\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\sunilsonwane\.m2\repository\io\cucumber\cucumber-junit\7.20.1\cucumber-junit-7.20.1.jar;C:\Users\sunilsonwane\.m2\repository\ch\qos\logback\logback-classic\1.4.11\logback-classic-1.4.11.jar;C:\Users\sunilsonwane\.m2\repository\ch\qos\logback\logback-core\1.4.11\logback-core-1.4.11.jar;C:\Users\sunilsonwane\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\sunilsonwane\.m2\repository\io\appium\java-client\9.3.0\java-client-9.3.0.jar;C:\Users\sunilsonwane\.m2\repository\org\seleniumhq\selenium\selenium-api\4.31.0\selenium-api-4.31.0.jar;C:\Users\sunilsonwane\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\sunilsonwane\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.31.0\selenium-remote-driver-4.31.0.jar;C:\Users\sunilsonwane\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\sunilsonwane\.m2\repository\com\google\guava\guava\33.4.6-jre\guava-33.4.6-jre.jar;C:\Users\sunilsonwane\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\sunilsonwane\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\sunilsonwane\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\sunilsonwane\.m2\repository\io\opentelemetry\opentelemetry-api\1.48.0\opentelemetry-api-1.48.0.jar;C:\Users\sunilsonwane\.m2\repository\io\opentelemetry\opentelemetry-context\1.48.0\opentelemetry-context-1.48.0.jar;C:\Users\sunilsonwane\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.48.0\opentelemetry-exporter-logging-1.48.0.jar;C:\Users\sunilsonwane\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.48.0\opentelemetry-sdk-common-1.48.0.jar;C:\Users\sunilsonwane\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.48.0\opentelemetry-sdk-extension-autoconfigure-spi-1.48.0.jar;C:\Users\sunilsonwane\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.48.0\opentelemetry-sdk-extension-autoconfigure-1.48.0.jar;C:\Users\sunilsonwane\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.48.0\opentelemetry-sdk-trace-1.48.0.jar;C:\Users\sunilsonwane\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.48.0\opentelemetry-sdk-1.48.0.jar;C:\Users\sunilsonwane\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.48.0\opentelemetry-sdk-metrics-1.48.0.jar;C:\Users\sunilsonwane\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.48.0\opentelemetry-sdk-logs-1.48.0.jar;C:\Users\sunilsonwane\.m2\repository\net\bytebuddy\byte-buddy\1.17.5\byte-buddy-1.17.5.jar;C:\Users\sunilsonwane\.m2\repository\org\seleniumhq\selenium\selenium-http\4.31.0\selenium-http-4.31.0.jar;C:\Users\sunilsonwane\.m2\repository\org\seleniumhq\selenium\selenium-json\4.31.0\selenium-json-4.31.0.jar;C:\Users\sunilsonwane\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.31.0\selenium-manager-4.31.0.jar;C:\Users\sunilsonwane\.m2\repository\org\seleniumhq\selenium\selenium-os\4.31.0\selenium-os-4.31.0.jar;C:\Users\sunilsonwane\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\sunilsonwane\.m2\repository\org\seleniumhq\selenium\selenium-support\4.31.0\selenium-support-4.31.0.jar;C:\Users\sunilsonwane\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\sunilsonwane\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\sunilsonwane\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\sunilsonwane\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\sunilsonwane\.m2\repository\org\seleniumhq\selenium\selenium-java\4.25.0\selenium-java-4.25.0.jar;C:\Users\sunilsonwane\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.25.0\selenium-chrome-driver-4.25.0.jar;C:\Users\sunilsonwane\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.25.0\selenium-chromium-driver-4.25.0.jar;C:\Users\sunilsonwane\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.25.0\selenium-devtools-v127-4.25.0.jar;C:\Users\sunilsonwane\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.25.0\selenium-devtools-v128-4.25.0.jar;C:\Users\sunilsonwane\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.25.0\selenium-devtools-v129-4.25.0.jar;C:\Users\sunilsonwane\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.25.0\selenium-devtools-v85-4.25.0.jar;C:\Users\sunilsonwane\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.25.0\selenium-edge-driver-4.25.0.jar;C:\Users\sunilsonwane\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.25.0\selenium-firefox-driver-4.25.0.jar;C:\Users\sunilsonwane\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.25.0\selenium-ie-driver-4.25.0.jar;C:\Users\sunilsonwane\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.25.0\selenium-safari-driver-4.25.0.jar;C:\Users\sunilsonwane\.m2\repository\com\codoid\products\fillo\1.22\fillo-1.22.jar;C:\Users\sunilsonwane\.m2\repository\com\aventstack\extentreports\4.0.6\extentreports-4.0.6.jar;C:\Users\sunilsonwane\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\sunilsonwane\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\sunilsonwane\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\sunilsonwane\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\sunilsonwane\.m2\repository\org\json\json\20220320\json-20220320.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\sunilsonwane\AppData\Local\Temp\surefire10982304439853503045\surefirebooter-20250416162937061_3.jar C:\Users\sunilsonwane\AppData\Local\Temp\surefire10982304439853503045 2025-04-16T16-29-36_847-jvmRun1 surefire-20250416162937061_1tmp surefire_0-20250416162937061_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\sunilsonwane\AutomationTestHub\Automation_Sunil\Crio_PlayGround\target\test-classes;C:\Users\sunilsonwane\AutomationTestHub\Automation_Sunil\Crio_PlayGround\target\classes;C:\Users\sunilsonwane\.m2\repository\io\cucumber\cucumber-java\7.20.1\cucumber-java-7.20.1.jar;C:\Users\sunilsonwane\.m2\repository\io\cucumber\cucumber-core\7.20.1\cucumber-core-7.20.1.jar;C:\Users\sunilsonwane\.m2\repository\io\cucumber\cucumber-gherkin\7.20.1\cucumber-gherkin-7.20.1.jar;C:\Users\sunilsonwane\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.20.1\cucumber-gherkin-messages-7.20.1.jar;C:\Users\sunilsonwane\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\sunilsonwane\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\sunilsonwane\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\sunilsonwane\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\sunilsonwane\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\sunilsonwane\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\sunilsonwane\.m2\repository\io\cucumber\datatable\7.20.1\datatable-7.20.1.jar;C:\Users\sunilsonwane\.m2\repository\io\cucumber\cucumber-plugin\7.20.1\cucumber-plugin-7.20.1.jar;C:\Users\sunilsonwane\.m2\repository\io\cucumber\docstring\7.20.1\docstring-7.20.1.jar;C:\Users\sunilsonwane\.m2\repository\io\cucumber\html-formatter\21.7.0\html-formatter-21.7.0.jar;C:\Users\sunilsonwane\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\sunilsonwane\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\sunilsonwane\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\sunilsonwane\.m2\repository\com\sun\mail\javax.mail\1.6.2\javax.mail-1.6.2.jar;C:\Users\sunilsonwane\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\sunilsonwane\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\sunilsonwane\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\sunilsonwane\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\sunilsonwane\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\sunilsonwane\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\sunilsonwane\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\sunilsonwane\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\sunilsonwane\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\sunilsonwane\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\sunilsonwane\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\sunilsonwane\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\sunilsonwane\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\sunilsonwane\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\sunilsonwane\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\sunilsonwane\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\sunilsonwane\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\sunilsonwane\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\sunilsonwane\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\sunilsonwane\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\sunilsonwane\.m2\repository\io\cucumber\cucumber-junit\7.20.1\cucumber-junit-7.20.1.jar;C:\Users\sunilsonwane\.m2\repository\ch\qos\logback\logback-classic\1.4.11\logback-classic-1.4.11.jar;C:\Users\sunilsonwane\.m2\repository\ch\qos\logback\logback-core\1.4.11\logback-core-1.4.11.jar;C:\Users\sunilsonwane\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\sunilsonwane\.m2\repository\io\appium\java-client\9.3.0\java-client-9.3.0.jar;C:\Users\sunilsonwane\.m2\repository\org\seleniumhq\selenium\selenium-api\4.31.0\selenium-api-4.31.0.jar;C:\Users\sunilsonwane\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\sunilsonwane\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.31.0\selenium-remote-driver-4.31.0.jar;C:\Users\sunilsonwane\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\sunilsonwane\.m2\repository\com\google\guava\guava\33.4.6-jre\guava-33.4.6-jre.jar;C:\Users\sunilsonwane\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\sunilsonwane\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\sunilsonwane\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\sunilsonwane\.m2\repository\io\opentelemetry\opentelemetry-api\1.48.0\opentelemetry-api-1.48.0.jar;C:\Users\sunilsonwane\.m2\repository\io\opentelemetry\opentelemetry-context\1.48.0\opentelemetry-context-1.48.0.jar;C:\Users\sunilsonwane\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.48.0\opentelemetry-exporter-logging-1.48.0.jar;C:\Users\sunilsonwane\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.48.0\opentelemetry-sdk-common-1.48.0.jar;C:\Users\sunilsonwane\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.48.0\opentelemetry-sdk-extension-autoconfigure-spi-1.48.0.jar;C:\Users\sunilsonwane\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.48.0\opentelemetry-sdk-extension-autoconfigure-1.48.0.jar;C:\Users\sunilsonwane\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.48.0\opentelemetry-sdk-trace-1.48.0.jar;C:\Users\sunilsonwane\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.48.0\opentelemetry-sdk-1.48.0.jar;C:\Users\sunilsonwane\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.48.0\opentelemetry-sdk-metrics-1.48.0.jar;C:\Users\sunilsonwane\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.48.0\opentelemetry-sdk-logs-1.48.0.jar;C:\Users\sunilsonwane\.m2\repository\net\bytebuddy\byte-buddy\1.17.5\byte-buddy-1.17.5.jar;C:\Users\sunilsonwane\.m2\repository\org\seleniumhq\selenium\selenium-http\4.31.0\selenium-http-4.31.0.jar;C:\Users\sunilsonwane\.m2\repository\org\seleniumhq\selenium\selenium-json\4.31.0\selenium-json-4.31.0.jar;C:\Users\sunilsonwane\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.31.0\selenium-manager-4.31.0.jar;C:\Users\sunilsonwane\.m2\repository\org\seleniumhq\selenium\selenium-os\4.31.0\selenium-os-4.31.0.jar;C:\Users\sunilsonwane\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\sunilsonwane\.m2\repository\org\seleniumhq\selenium\selenium-support\4.31.0\selenium-support-4.31.0.jar;C:\Users\sunilsonwane\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\sunilsonwane\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\sunilsonwane\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\sunilsonwane\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\sunilsonwane\.m2\repository\org\seleniumhq\selenium\selenium-java\4.25.0\selenium-java-4.25.0.jar;C:\Users\sunilsonwane\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.25.0\selenium-chrome-driver-4.25.0.jar;C:\Users\sunilsonwane\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.25.0\selenium-chromium-driver-4.25.0.jar;C:\Users\sunilsonwane\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.25.0\selenium-devtools-v127-4.25.0.jar;C:\Users\sunilsonwane\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.25.0\selenium-devtools-v128-4.25.0.jar;C:\Users\sunilsonwane\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.25.0\selenium-devtools-v129-4.25.0.jar;C:\Users\sunilsonwane\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.25.0\selenium-devtools-v85-4.25.0.jar;C:\Users\sunilsonwane\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.25.0\selenium-edge-driver-4.25.0.jar;C:\Users\sunilsonwane\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.25.0\selenium-firefox-driver-4.25.0.jar;C:\Users\sunilsonwane\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.25.0\selenium-ie-driver-4.25.0.jar;C:\Users\sunilsonwane\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.25.0\selenium-safari-driver-4.25.0.jar;C:\Users\sunilsonwane\.m2\repository\com\codoid\products\fillo\1.22\fillo-1.22.jar;C:\Users\sunilsonwane\.m2\repository\com\aventstack\extentreports\4.0.6\extentreports-4.0.6.jar;C:\Users\sunilsonwane\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\sunilsonwane\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\sunilsonwane\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\sunilsonwane\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\sunilsonwane\.m2\repository\org\json\json\20220320\json-20220320.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\sunilsonwane"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\sunilsonwane\AutomationTestHub\Automation_Sunil\Crio_PlayGround"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\sunilsonwane\AppData\Local\Temp\surefire10982304439853503045\surefirebooter-20250416162937061_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
+    <property name="user.name" value="sunilsonwane"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\sunilsonwane\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\SUNILS~1\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2024.1.3"/>
+    <property name="java.version" value="17.0.12"/>
+    <property name="user.dir" value="C:\Users\sunilsonwane\AutomationTestHub\Automation_Sunil\Crio_PlayGround"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;&quot;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_201\C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files\Java\jdk-17\bin&quot;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Java\jdk-17\bin;C:\Users\sunilsonwane\apache-maven-3.9.8\bin;C:\Program Files\platform-tools;C:\Users\sunilsonwane\AppData\Local\Android\Sdk\tools\bin;C:\Users\sunilsonwane\AppData\Local\Android\Sdk\tools;C:\Users\sunilsonwane\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Git\cmd;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Users\sunilsonwane\AutomationTestHub\gradle-8.5;C:\Users\sunilsonwane\AutomationTestHub\gradle-8.5\bin;C:\Users\sunilsonwane\AppData\Local\Microsoft\WindowsApps;C:\Users\sunilsonwane\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\sunilsonwane\AppData\Roaming\npm;C:\Users\sunilsonwane\.dotnet\tools;C:\Users\sunilsonwane\AppData\Local\Android\Sdk;C:\Users\sunilsonwane\AppData\Local\Android\Sdk\platform-tools;C:\Users\sunilsonwane\AppData\Local\Android\Sdk\tools;C:\Users\sunilsonwane\AutomationTestHub\Source files\Jars\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Users\sunilsonwane\AppData\Local\Android\Sdk;C:\Users\sunilsonwane\AutomationTestHub\gradle-8.5;C:\Users\sunilsonwane\AutomationTestHub\gradle-8.5\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.12+8-LTS-286"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="Base case login by installer and store token" classname="Battery registration" time="0.007">
+    <error message="The step &apos;login endpoint as string&apos; and 3 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;login endpoint as string&quot;)&#10;public void login_endpoint_as_string() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;user send the post request with uid and psd &amp; set endpoints&quot;)&#10;public void user_send_the_post_request_with_uid_and_psd_set_endpoints() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;validate status code of response&quot;)&#10;public void validate_status_code_of_response() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;Set token Global&quot;)&#10;public void set_token_global() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException"><![CDATA[io.cucumber.junit.UndefinedStepException: 
+The step 'login endpoint as string' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("login endpoint as string")
+public void login_endpoint_as_string() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user send the post request with uid and psd & set endpoints")
+public void user_send_the_post_request_with_uid_and_psd_set_endpoints() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("validate status code of response")
+public void validate_status_code_of_response() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Set token Global")
+public void set_token_global() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></error>
+    <system-out><![CDATA[
+@Battery_regi @testa
+Scenario: Base case login by installer and store token             &amp#27;[90m# src/test/resources/Features/B_Registration.feature:5&amp#27;[0m
+  &amp#27;[33mGiven &amp#27;[0m&amp#27;[33mlogin endpoint as string&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser send the post request with uid and psd & set endpoints&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mvalidate status code of response&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mSet token Global&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="TC_21_Validate Battery Registration new site endpoint with Blank product by Installer user" classname="Battery registration" time="0.004">
+    <error message="The step &apos;send Post request with Blank product &amp; valid token&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Then(&quot;send Post request with Blank product &amp; valid token&quot;)&#10;public void send_post_request_with_blank_product_valid_token() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;validate status code of response&quot;)&#10;public void validate_status_code_of_response() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;validate response for Blank product&quot;)&#10;public void validate_response_for_blank_product() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException"><![CDATA[io.cucumber.junit.UndefinedStepException: 
+The step 'send Post request with Blank product & valid token' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("send Post request with Blank product & valid token")
+public void send_post_request_with_blank_product_valid_token() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("validate status code of response")
+public void validate_status_code_of_response() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("validate response for Blank product")
+public void validate_response_for_blank_product() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></error>
+    <system-out><![CDATA[
+@Battery_regi @f11
+Scenario: TC_21_Validate Battery Registration new site endpoint with Blank product by Installer user &amp#27;[90m# src/test/resources/Features/B_Registration.feature:12&amp#27;[0m
+  &amp#27;[33mThen &amp#27;[0m&amp#27;[33msend Post request with Blank product & valid token&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mvalidate status code of response&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mvalidate response for Blank product&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="TC_22_Validate Battery Registration new site endpoint with space as a product by Installer user" classname="Battery registration" time="0.002">
+    <error message="The step &apos;send Post request with space as a product &amp; valid token&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Then(&quot;send Post request with space as a product &amp; valid token&quot;)&#10;public void send_post_request_with_space_as_a_product_valid_token() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;validate status code of response&quot;)&#10;public void validate_status_code_of_response() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;validate response for Blank product&quot;)&#10;public void validate_response_for_blank_product() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException"><![CDATA[io.cucumber.junit.UndefinedStepException: 
+The step 'send Post request with space as a product & valid token' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("send Post request with space as a product & valid token")
+public void send_post_request_with_space_as_a_product_valid_token() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("validate status code of response")
+public void validate_status_code_of_response() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("validate response for Blank product")
+public void validate_response_for_blank_product() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></error>
+    <system-out><![CDATA[
+@Battery_regi @f22
+Scenario: TC_22_Validate Battery Registration new site endpoint with space as a product by Installer user &amp#27;[90m# src/test/resources/Features/B_Registration.feature:18&amp#27;[0m
+  &amp#27;[33mThen &amp#27;[0m&amp#27;[33msend Post request with space as a product & valid token&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mvalidate status code of response&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mvalidate response for Blank product&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="TC_23_Validate Battery Registration new site endpoint with space in a product by Installer user" classname="Battery registration" time="0.004">
+    <error message="The step &apos;send Post request with space in a product &amp; valid token&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Then(&quot;send Post request with space in a product &amp; valid token&quot;)&#10;public void send_post_request_with_space_in_a_product_valid_token() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;validate status code of response&quot;)&#10;public void validate_status_code_of_response() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;validate response for space in product&quot;)&#10;public void validate_response_for_space_in_product() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException"><![CDATA[io.cucumber.junit.UndefinedStepException: 
+The step 'send Post request with space in a product & valid token' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("send Post request with space in a product & valid token")
+public void send_post_request_with_space_in_a_product_valid_token() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("validate status code of response")
+public void validate_status_code_of_response() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("validate response for space in product")
+public void validate_response_for_space_in_product() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></error>
+    <system-out><![CDATA[
+@Battery_regi
+Scenario: TC_23_Validate Battery Registration new site endpoint with space in a product by Installer user &amp#27;[90m# src/test/resources/Features/B_Registration.feature:23&amp#27;[0m
+  &amp#27;[33mThen &amp#27;[0m&amp#27;[33msend Post request with space in a product & valid token&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mvalidate status code of response&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mvalidate response for space in product&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="TC_24_Validate Battery Registration new site with all unique values" classname="Battery registration" time="0.004">
+    <error message="The step &apos;send Post request with unique values &amp; valid token&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Then(&quot;send Post request with unique values &amp; valid token&quot;)&#10;public void send_post_request_with_unique_values_valid_token() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;validate status code of response&quot;)&#10;public void validate_status_code_of_response() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;validate response for all unique values&quot;)&#10;public void validate_response_for_all_unique_values() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException"><![CDATA[io.cucumber.junit.UndefinedStepException: 
+The step 'send Post request with unique values & valid token' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("send Post request with unique values & valid token")
+public void send_post_request_with_unique_values_valid_token() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("validate status code of response")
+public void validate_status_code_of_response() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("validate response for all unique values")
+public void validate_response_for_all_unique_values() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></error>
+    <system-out><![CDATA[
+@Battery_regi @testa
+Scenario: TC_24_Validate Battery Registration new site with all unique values &amp#27;[90m# src/test/resources/Features/B_Registration.feature:28&amp#27;[0m
+  &amp#27;[33mThen &amp#27;[0m&amp#27;[33msend Post request with unique values & valid token&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mvalidate status code of response&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mvalidate response for all unique values&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="TC_25_Validate Battery Registration new site with duplicate Product id values" classname="Battery registration" time="0.003">
+    <error message="The step &apos;send Post request with duplicate Product id &amp; valid token&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Then(&quot;send Post request with duplicate Product id &amp; valid token&quot;)&#10;public void send_post_request_with_duplicate_product_id_valid_token() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;validate status code of response&quot;)&#10;public void validate_status_code_of_response() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;validate response with duplicate Product id&quot;)&#10;public void validate_response_with_duplicate_product_id() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException"><![CDATA[io.cucumber.junit.UndefinedStepException: 
+The step 'send Post request with duplicate Product id & valid token' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("send Post request with duplicate Product id & valid token")
+public void send_post_request_with_duplicate_product_id_valid_token() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("validate status code of response")
+public void validate_status_code_of_response() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("validate response with duplicate Product id")
+public void validate_response_with_duplicate_product_id() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></error>
+    <system-out><![CDATA[
+@Battery_regi
+Scenario: TC_25_Validate Battery Registration new site with duplicate Product id values &amp#27;[90m# src/test/resources/Features/B_Registration.feature:33&amp#27;[0m
+  &amp#27;[33mThen &amp#27;[0m&amp#27;[33msend Post request with duplicate Product id & valid token&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mvalidate status code of response&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mvalidate response with duplicate Product id&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="TC_26_Validate Battery Registration new site with duplicate Name values" classname="Battery registration" time="0.004">
+    <error message="The step &apos;send Post request with duplicate Name &amp; valid token&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Then(&quot;send Post request with duplicate Name &amp; valid token&quot;)&#10;public void send_post_request_with_duplicate_name_valid_token() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;validate status code of response&quot;)&#10;public void validate_status_code_of_response() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;validate response with duplicate name&quot;)&#10;public void validate_response_with_duplicate_name() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException"><![CDATA[io.cucumber.junit.UndefinedStepException: 
+The step 'send Post request with duplicate Name & valid token' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("send Post request with duplicate Name & valid token")
+public void send_post_request_with_duplicate_name_valid_token() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("validate status code of response")
+public void validate_status_code_of_response() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("validate response with duplicate name")
+public void validate_response_with_duplicate_name() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></error>
+    <system-out><![CDATA[
+@Battery_regi
+Scenario: TC_26_Validate Battery Registration new site with duplicate Name values &amp#27;[90m# src/test/resources/Features/B_Registration.feature:38&amp#27;[0m
+  &amp#27;[33mThen &amp#27;[0m&amp#27;[33msend Post request with duplicate Name & valid token&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mvalidate status code of response&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mvalidate response with duplicate name&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="TC_27_Verify recently registered Battery in installation list" classname="Battery registration" time="0.004">
+    <error message="The step &apos;search Post request with recently regi. product id in list endpoint&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Then(&quot;search Post request with recently regi. product id in list endpoint&quot;)&#10;public void search_post_request_with_recently_regi_product_id_in_list_endpoint() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;validate status code of response&quot;)&#10;public void validate_status_code_of_response() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;validate details in response of search result and set installation id global&quot;)&#10;public void validate_details_in_response_of_search_result_and_set_installation_id_global() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException"><![CDATA[io.cucumber.junit.UndefinedStepException: 
+The step 'search Post request with recently regi. product id in list endpoint' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("search Post request with recently regi. product id in list endpoint")
+public void search_post_request_with_recently_regi_product_id_in_list_endpoint() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("validate status code of response")
+public void validate_status_code_of_response() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("validate details in response of search result and set installation id global")
+public void validate_details_in_response_of_search_result_and_set_installation_id_global() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></error>
+    <system-out><![CDATA[
+@Battery_regi @testa
+Scenario: TC_27_Verify recently registered Battery in installation list            &amp#27;[90m# src/test/resources/Features/B_Registration.feature:43&amp#27;[0m
+  &amp#27;[33mThen &amp#27;[0m&amp#27;[33msearch Post request with recently regi. product id in list endpoint&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mvalidate status code of response&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mvalidate details in response of search result and set installation id global&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="TC_28_Register Ev1 on existing site" classname="Battery registration" time="0.005">
+    <error message="The step &apos;send Post request with unique values &amp; to register EV1&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Then(&quot;send Post request with unique values &amp; to register EV1&quot;)&#10;public void send_post_request_with_unique_values_to_register_ev1() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;validate status code of response&quot;)&#10;public void validate_status_code_of_response() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;validate response for all unique values&quot;)&#10;public void validate_response_for_all_unique_values() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException"><![CDATA[io.cucumber.junit.UndefinedStepException: 
+The step 'send Post request with unique values & to register EV1' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("send Post request with unique values & to register EV1")
+public void send_post_request_with_unique_values_to_register_ev1() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("validate status code of response")
+public void validate_status_code_of_response() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("validate response for all unique values")
+public void validate_response_for_all_unique_values() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></error>
+    <system-out><![CDATA[
+@Battery_regi
+Scenario: TC_28_Register Ev1 on existing site                 &amp#27;[90m# src/test/resources/Features/B_Registration.feature:48&amp#27;[0m
+  &amp#27;[33mThen &amp#27;[0m&amp#27;[33msend Post request with unique values & to register EV1&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mvalidate status code of response&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mvalidate response for all unique values&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="TC_29_Validate Ev1 Registration existing site with duplicate Product id values" classname="Battery registration" time="0.004">
+    <error message="The step &apos;send Post request with duplicate Product id &amp; valid token&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Then(&quot;send Post request with duplicate Product id &amp; valid token&quot;)&#10;public void send_post_request_with_duplicate_product_id_valid_token() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;validate status code of response&quot;)&#10;public void validate_status_code_of_response() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;validate response with duplicate Product id&quot;)&#10;public void validate_response_with_duplicate_product_id() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException"><![CDATA[io.cucumber.junit.UndefinedStepException: 
+The step 'send Post request with duplicate Product id & valid token' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("send Post request with duplicate Product id & valid token")
+public void send_post_request_with_duplicate_product_id_valid_token() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("validate status code of response")
+public void validate_status_code_of_response() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("validate response with duplicate Product id")
+public void validate_response_with_duplicate_product_id() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></error>
+    <system-out><![CDATA[
+@Battery_regi
+Scenario: TC_29_Validate Ev1 Registration existing site with duplicate Product id values &amp#27;[90m# src/test/resources/Features/B_Registration.feature:53&amp#27;[0m
+  &amp#27;[33mThen &amp#27;[0m&amp#27;[33msend Post request with duplicate Product id & valid token&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mvalidate status code of response&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mvalidate response with duplicate Product id&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="TC_30_Validate Ev1 Registration existing site with duplicate Name values" classname="Battery registration" time="0.004">
+    <error message="The step &apos;send Post request with duplicate Name &amp; valid token&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Then(&quot;send Post request with duplicate Name &amp; valid token&quot;)&#10;public void send_post_request_with_duplicate_name_valid_token() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;validate status code of response&quot;)&#10;public void validate_status_code_of_response() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;validate response with duplicate name&quot;)&#10;public void validate_response_with_duplicate_name() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException"><![CDATA[io.cucumber.junit.UndefinedStepException: 
+The step 'send Post request with duplicate Name & valid token' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("send Post request with duplicate Name & valid token")
+public void send_post_request_with_duplicate_name_valid_token() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("validate status code of response")
+public void validate_status_code_of_response() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("validate response with duplicate name")
+public void validate_response_with_duplicate_name() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></error>
+    <system-out><![CDATA[
+@Battery_regi
+Scenario: TC_30_Validate Ev1 Registration existing site with duplicate Name values &amp#27;[90m# src/test/resources/Features/B_Registration.feature:58&amp#27;[0m
+  &amp#27;[33mThen &amp#27;[0m&amp#27;[33msend Post request with duplicate Name & valid token&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mvalidate status code of response&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mvalidate response with duplicate name&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="TC_29_Verify recently registered EV1 in installation list" classname="Battery registration" time="0.005">
+    <error message="The step &apos;search Post request with recently regi. product ids in list endpoint&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Then(&quot;search Post request with recently regi. product ids in list endpoint&quot;)&#10;public void search_post_request_with_recently_regi_product_ids_in_list_endpoint() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;validate status code of response&quot;)&#10;public void validate_status_code_of_response() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;validate details in response of search result and set installation id global&quot;)&#10;public void validate_details_in_response_of_search_result_and_set_installation_id_global() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException"><![CDATA[io.cucumber.junit.UndefinedStepException: 
+The step 'search Post request with recently regi. product ids in list endpoint' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("search Post request with recently regi. product ids in list endpoint")
+public void search_post_request_with_recently_regi_product_ids_in_list_endpoint() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("validate status code of response")
+public void validate_status_code_of_response() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("validate details in response of search result and set installation id global")
+public void validate_details_in_response_of_search_result_and_set_installation_id_global() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></error>
+    <system-out><![CDATA[
+@Battery_regi
+Scenario: TC_29_Verify recently registered EV1 in installation list                &amp#27;[90m# src/test/resources/Features/B_Registration.feature:63&amp#27;[0m
+  &amp#27;[33mThen &amp#27;[0m&amp#27;[33msearch Post request with recently regi. product ids in list endpoint&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mvalidate status code of response&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mvalidate details in response of search result and set installation id global&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>

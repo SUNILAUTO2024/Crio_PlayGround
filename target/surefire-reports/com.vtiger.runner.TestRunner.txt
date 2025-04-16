@@ -1,0 +1,273 @@
+-------------------------------------------------------------------------------
+Test set: com.vtiger.runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 0, Errors: 12, Skipped: 0, Time elapsed: 0.069 s <<< FAILURE! -- in com.vtiger.runner.TestRunner
+Battery registration.Base case login by installer and store token -- Time elapsed: 0.005 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'login endpoint as string' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("login endpoint as string")
+public void login_endpoint_as_string() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user send the post request with uid and psd & set endpoints")
+public void user_send_the_post_request_with_uid_and_psd_set_endpoints() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("validate status code of response")
+public void validate_status_code_of_response() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Set token Global")
+public void set_token_global() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Battery registration.TC_21_Validate Battery Registration new site endpoint with Blank product by Installer user -- Time elapsed: 0.003 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'send Post request with Blank product & valid token' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("send Post request with Blank product & valid token")
+public void send_post_request_with_blank_product_valid_token() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("validate status code of response")
+public void validate_status_code_of_response() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("validate response for Blank product")
+public void validate_response_for_blank_product() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Battery registration.TC_22_Validate Battery Registration new site endpoint with space as a product by Installer user -- Time elapsed: 0.003 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'send Post request with space as a product & valid token' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("send Post request with space as a product & valid token")
+public void send_post_request_with_space_as_a_product_valid_token() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("validate status code of response")
+public void validate_status_code_of_response() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("validate response for Blank product")
+public void validate_response_for_blank_product() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Battery registration.TC_23_Validate Battery Registration new site endpoint with space in a product by Installer user -- Time elapsed: 0.004 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'send Post request with space in a product & valid token' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("send Post request with space in a product & valid token")
+public void send_post_request_with_space_in_a_product_valid_token() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("validate status code of response")
+public void validate_status_code_of_response() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("validate response for space in product")
+public void validate_response_for_space_in_product() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Battery registration.TC_24_Validate Battery Registration new site with all unique values -- Time elapsed: 0.003 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'send Post request with unique values & valid token' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("send Post request with unique values & valid token")
+public void send_post_request_with_unique_values_valid_token() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("validate status code of response")
+public void validate_status_code_of_response() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("validate response for all unique values")
+public void validate_response_for_all_unique_values() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Battery registration.TC_25_Validate Battery Registration new site with duplicate Product id values -- Time elapsed: 0.003 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'send Post request with duplicate Product id & valid token' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("send Post request with duplicate Product id & valid token")
+public void send_post_request_with_duplicate_product_id_valid_token() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("validate status code of response")
+public void validate_status_code_of_response() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("validate response with duplicate Product id")
+public void validate_response_with_duplicate_product_id() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Battery registration.TC_26_Validate Battery Registration new site with duplicate Name values -- Time elapsed: 0.003 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'send Post request with duplicate Name & valid token' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("send Post request with duplicate Name & valid token")
+public void send_post_request_with_duplicate_name_valid_token() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("validate status code of response")
+public void validate_status_code_of_response() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("validate response with duplicate name")
+public void validate_response_with_duplicate_name() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Battery registration.TC_27_Verify recently registered Battery in installation list -- Time elapsed: 0.003 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'search Post request with recently regi. product id in list endpoint' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("search Post request with recently regi. product id in list endpoint")
+public void search_post_request_with_recently_regi_product_id_in_list_endpoint() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("validate status code of response")
+public void validate_status_code_of_response() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("validate details in response of search result and set installation id global")
+public void validate_details_in_response_of_search_result_and_set_installation_id_global() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Battery registration.TC_28_Register Ev1 on existing site -- Time elapsed: 0.003 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'send Post request with unique values & to register EV1' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("send Post request with unique values & to register EV1")
+public void send_post_request_with_unique_values_to_register_ev1() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("validate status code of response")
+public void validate_status_code_of_response() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("validate response for all unique values")
+public void validate_response_for_all_unique_values() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Battery registration.TC_29_Validate Ev1 Registration existing site with duplicate Product id values -- Time elapsed: 0.004 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'send Post request with duplicate Product id & valid token' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("send Post request with duplicate Product id & valid token")
+public void send_post_request_with_duplicate_product_id_valid_token() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("validate status code of response")
+public void validate_status_code_of_response() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("validate response with duplicate Product id")
+public void validate_response_with_duplicate_product_id() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Battery registration.TC_30_Validate Ev1 Registration existing site with duplicate Name values -- Time elapsed: 0.004 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'send Post request with duplicate Name & valid token' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("send Post request with duplicate Name & valid token")
+public void send_post_request_with_duplicate_name_valid_token() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("validate status code of response")
+public void validate_status_code_of_response() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("validate response with duplicate name")
+public void validate_response_with_duplicate_name() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Battery registration.TC_29_Verify recently registered EV1 in installation list -- Time elapsed: 0.003 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'search Post request with recently regi. product ids in list endpoint' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("search Post request with recently regi. product ids in list endpoint")
+public void search_post_request_with_recently_regi_product_ids_in_list_endpoint() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("validate status code of response")
+public void validate_status_code_of_response() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("validate details in response of search result and set installation id global")
+public void validate_details_in_response_of_search_result_and_set_installation_id_global() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
